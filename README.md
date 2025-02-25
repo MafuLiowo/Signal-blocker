@@ -1,6 +1,10 @@
 # Signal-blocker
 Signal-blocker,named as what it is!
 
+Minimal version are now available!!!
+
+2.5cm  x  3.8cm !!!!!
+
 VCO module can be replaced to anyother VCO module to block any frequence!
 
 recommended:GSM/CDMA TD-LTE MICROWAVE
