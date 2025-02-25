@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Signal-blocker_2025-02-25")(type "KiCad")(uri "$(KIPRJMOD)/Signal-blocker_2025-02-25.pretty")(options "")(descr ""))
-)
