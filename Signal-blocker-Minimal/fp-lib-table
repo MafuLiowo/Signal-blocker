@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProPrj_Signal-blocker-Minimal_2025-02-25")(type "KiCad")(uri "$(KIPRJMOD)/ProPrj_Signal-blocker-Minimal_2025-02-25.pretty")(options "")(descr ""))
+)
