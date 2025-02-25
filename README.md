@@ -16,3 +16,21 @@ VCO可随意更换其他VCO模组
 VCOは他のVCOモジュールに自由に交換可能
 
 推奨モジュール：GSM/CDMA TD-LTE MICROWAVE
+
+First version being released!
+
+This is the first project I released in Github
+
+Anyway of usage is allowed,including editing、modifying、fixing
+
+Thank you for your star!
+
+给颗星星谢谢啦！
+
+ありがとうございます
+
+( '﹃'⑉)
+
+X(twitter) @Mafumafuowo
+
+Mail:Mafumafuowo@gmail.com
