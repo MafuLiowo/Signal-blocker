@@ -7,6 +7,14 @@ Minimal version are now available!!!
 
 2.5cm  x  3.8cm !!!!!
 
+How to use:
+  the BOM excel includes all the things you need.
+  The release file is the file you need to hand in to the PCB manufaturer.
+  Like JLCPCB,Foxconn,SCC,TTM Technologies.
+  It may cost some fee.
+Language support:
+  简体中文 日本語 English
+
 VCO module can be replaced to anyother VCO module to block any frequence!
 
 recommended:GSM/CDMA TD-LTE MICROWAVE
