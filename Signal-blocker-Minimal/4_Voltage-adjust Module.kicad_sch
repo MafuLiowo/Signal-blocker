@@ -2,10 +2,10 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b62402db-8f27-40c8-8f11-3257f4646848")
+	(uuid "d476674b-a976-4742-81c5-e40a19c4320d")
 	(paper "User" 174.65 188.824)
 	(lib_symbols
-		(symbol "ProPrj_Sig-easyedapro:0Ω"
+		(symbol "Signal-blo-easyedapro:0Ω"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
+			(property "Footprint" "Signal-blo-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -138,7 +138,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410K±20%松下)"
+		(symbol "Signal-blo-easyedapro:3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410K±20%松下)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -158,7 +158,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:RES-ADJ-SMD_3P-L3.0-W3.8-P1.75-BR"
+			(property "Footprint" "Signal-blo-easyedapro:RES-ADJ-SMD_3P-L3.0-W3.8-P1.75-BR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -315,7 +315,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:AMS1117A-ADJ"
+		(symbol "Signal-blo-easyedapro:AMS1117A-ADJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -335,7 +335,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:SOT-223_L6.3-W3.5-P2.30-LS7.0-BR"
+			(property "Footprint" "Signal-blo-easyedapro:SOT-223_L6.3-W3.5-P2.30-LS7.0-BR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -504,7 +504,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:AR05ATB0500"
+		(symbol "Signal-blo-easyedapro:AR05ATB0500"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -525,7 +525,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:R0805"
+			(property "Footprint" "Signal-blo-easyedapro:R0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -647,7 +647,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:Drawing-Symbol_A4"
+		(symbol "Signal-blo-easyedapro:Drawing-Symbol_A4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -667,7 +667,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:"
+			(property "Footprint" "Signal-blo-easyedapro:"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1666,7 +1666,187 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:RT0805BRD0753R6L"
+		(symbol "Signal-blo-easyedapro:HGC0603R5106M160NTHJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Signal-blo-easyedapro:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/FAC3FEC40A78BC5CCCE96C232A94D860.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "容值:10uF;精度:±20%;额定电压:16V;材质(温度系数):X5R;"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "HGC0603R5106M160NTHJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Chinocera(华瓷)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C7472959"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "10uF ±20% 16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HGC0603R5106M160NTHJ_1_0"
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Signal-blo-easyedapro:RT0805BRD0753R6L"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1687,7 +1867,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:R0805"
+			(property "Footprint" "Signal-blo-easyedapro:R0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1809,211 +1989,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:TAJA106K016RNJ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:CAP-SMD_L3.2-W1.6-RD-C7171"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160107/1457707750344.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "容值:10uF;精度:±10%;额定电压:16V;等效串联电阻:3Ω@100kHz;"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "TAJA106K016RNJ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Kyocera AVX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C7171"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "10uF ±10% 16V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TAJA106K016RNJ_1_0"
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -2.032) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 1.778) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ProPrj_Sig-easyedapro:Y16294K50000B9W"
+		(symbol "Signal-blo-easyedapro:Y16294K50000B9W"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2034,7 +2010,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:R0805"
+			(property "Footprint" "Signal-blo-easyedapro:R0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2158,100 +2134,46 @@
 		)
 	)
 	(junction
-		(at 33.02 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24e5065e-24e4-4015-893e-ef900348620d")
-	)
-	(junction
 		(at 86.36 5.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "255158a1-d638-4ef6-8b66-4679d0682dbd")
+		(uuid "022f508a-31b0-453e-802f-9ca1d2fa7d92")
 	)
 	(junction
-		(at 69.85 17.78)
+		(at 76.2 12.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34d0a3e6-7ff4-42ef-8fbe-6790430864de")
-	)
-	(junction
-		(at 144.78 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c8148e7-67cf-42ea-a611-5e91e70cc1c1")
-	)
-	(junction
-		(at 59.69 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fcdf801-e6a3-4885-90d2-7d65fa4f1103")
+		(uuid "0392ee2f-d42b-4fb7-8e18-77d60e53f319")
 	)
 	(junction
 		(at 157.48 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78266c4d-9c46-4b59-9e73-62f16c239580")
+		(uuid "57de8e37-1b00-48db-94f7-399f018d6546")
 	)
-	(wire
-		(pts
-			(xy 59.69 17.78) (xy 52.07 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac585d4-327b-405d-ae7e-a4bf7b2d7eae")
+	(junction
+		(at 59.69 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e537b0b-3e16-42a7-b766-bb89b8971e1e")
 	)
-	(wire
-		(pts
-			(xy 144.78 5.08) (xy 144.78 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30495d72-34fc-4972-b1ae-09ea72e28847")
+	(junction
+		(at 144.78 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b70a2898-43cf-4f5b-b369-66d2e9453804")
 	)
-	(wire
-		(pts
-			(xy 144.78 17.78) (xy 157.48 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359fae40-aba9-4921-9a2d-8ac80d5f3df4")
+	(junction
+		(at 69.85 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bba9605e-4123-4fa8-b12f-2bebb3c8ae50")
 	)
-	(wire
-		(pts
-			(xy 64.77 2.54) (xy 64.77 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c8dee1-eca7-4329-9313-ff6fccf1cf09")
-	)
-	(wire
-		(pts
-			(xy 121.92 5.08) (xy 128.27 5.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51ab01a6-ddc3-45e5-b5d7-184c766d01cf")
-	)
-	(wire
-		(pts
-			(xy 144.78 17.78) (xy 97.79 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d96f962-862b-4273-88e1-a2c93e898d1e")
+	(junction
+		(at 33.02 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58994e4-9051-45f7-b843-bacc36820dbf")
 	)
 	(wire
 		(pts
@@ -2261,127 +2183,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "68d5a99d-cb7f-44b5-95b6-f08acc3906b9")
-	)
-	(wire
-		(pts
-			(xy 25.4 17.78) (xy 33.02 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6be4546d-324c-45de-97d3-e262b8959deb")
-	)
-	(wire
-		(pts
-			(xy 41.91 17.78) (xy 33.02 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84251101-31d0-480f-a678-5300904bdc32")
-	)
-	(wire
-		(pts
-			(xy 144.78 5.08) (xy 138.43 5.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e985d84-fdf2-46ab-a8e5-618fe9b81ac1")
-	)
-	(wire
-		(pts
-			(xy 87.63 17.78) (xy 69.85 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ce7c8b-be91-49fe-a27a-773471c5fa19")
-	)
-	(wire
-		(pts
-			(xy 59.69 27.94) (xy 59.69 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a522c207-b769-4128-b10e-9f53c6f527a0")
-	)
-	(wire
-		(pts
-			(xy 69.85 27.94) (xy 69.85 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5aa1e68-3f9e-44d0-89a6-e858307aa5c7")
-	)
-	(wire
-		(pts
-			(xy 101.6 7.62) (xy 93.98 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1752d9f-750e-42b8-9d6d-9451b407e6b2")
-	)
-	(wire
-		(pts
-			(xy 168.91 17.78) (xy 157.48 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b42c6b77-d702-438e-9f4e-ad83fd7839d5")
-	)
-	(wire
-		(pts
-			(xy 157.48 25.4) (xy 157.48 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba740e42-979a-4808-a1ff-e5d10ef9213b")
-	)
-	(wire
-		(pts
-			(xy 0 17.78) (xy 15.24 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc0ecd91-b406-406c-96ef-a963c50a5d1e")
-	)
-	(wire
-		(pts
-			(xy 64.77 2.54) (xy 101.6 2.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab0631d-0ba7-4795-8740-ed9a47e1c73d")
-	)
-	(wire
-		(pts
-			(xy 86.36 5.08) (xy 86.36 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e26b45-0443-4378-a782-52feaf29f78c")
+		(uuid "0c58947c-cd8c-47d4-beff-7b01253d71a9")
 	)
 	(wire
 		(pts
@@ -2391,17 +2193,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d7acf5bb-23fd-425c-ad84-f8f67a17f10c")
+		(uuid "18365384-aab3-425a-bf93-730479671370")
 	)
 	(wire
 		(pts
-			(xy 71.12 12.7) (xy 78.74 12.7)
+			(xy 59.69 17.78) (xy 52.07 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8301255-6074-42bb-b5ed-c288b2f0b768")
+		(uuid "1b599fce-1170-4dbe-8d21-096887df8234")
+	)
+	(wire
+		(pts
+			(xy 0 17.78) (xy 15.24 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242b6e1e-9d80-4067-992c-218c1fb32dc4")
+	)
+	(wire
+		(pts
+			(xy 59.69 27.94) (xy 59.69 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c581a0-ec26-4a5d-8586-31b02ef8d21d")
 	)
 	(wire
 		(pts
@@ -2411,47 +2233,177 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e418f34e-fb6e-460d-bd19-559ea338f8c7")
+		(uuid "27080ebb-8715-4b04-b350-13b5424ea4e2")
 	)
-	(label "VT"
-		(at 77.47 5.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 87.63 17.78) (xy 69.85 17.78)
 		)
-		(uuid "4c776713-9ec9-4b4c-a64a-b7b060b9b6ae")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e972a2-0c14-4ffd-9a0d-94d392ea3e5a")
 	)
-	(label "VCC-"
-		(at 168.91 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 86.36 5.08) (xy 86.36 12.7)
 		)
-		(uuid "6d6e7475-c47a-4e09-831f-e2316ff47d49")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cbd4d2-505f-4731-a176-4dd2cc995cdc")
 	)
-	(label "VCC9V+"
-		(at 0 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 25.4 17.78) (xy 33.02 17.78)
 		)
-		(uuid "91a964ed-08e7-4a60-99bd-709e92318950")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b073b0a-590a-4134-a4f3-8c05e2ece042")
 	)
-	(label "VCC+"
-		(at 93.98 7.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 41.91 17.78) (xy 33.02 17.78)
 		)
-		(uuid "97f03346-34b0-41e1-aa3b-55202feb5385")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fbfbc9-ba87-4e7f-b6d8-d40229d4fef1")
+	)
+	(wire
+		(pts
+			(xy 101.6 7.62) (xy 93.98 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88967afe-0211-49c2-ac40-e6ee78643cfc")
+	)
+	(wire
+		(pts
+			(xy 144.78 17.78) (xy 97.79 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c438064-f506-444e-aea9-5b839382b36b")
+	)
+	(wire
+		(pts
+			(xy 69.85 27.94) (xy 69.85 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d9c214-70c8-4a72-a4d2-a6b57dfd94cc")
+	)
+	(wire
+		(pts
+			(xy 64.77 2.54) (xy 101.6 2.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e4cd28-6e35-4313-aabe-4aa0991e144c")
+	)
+	(wire
+		(pts
+			(xy 157.48 25.4) (xy 157.48 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0b79c9-b158-4aa0-800a-231c5ad3b7e8")
+	)
+	(wire
+		(pts
+			(xy 144.78 5.08) (xy 144.78 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c559010b-e1a3-44e0-9e0e-bbd0de283221")
+	)
+	(wire
+		(pts
+			(xy 144.78 17.78) (xy 157.48 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca82a185-2ca9-467b-a383-891ef9f75093")
+	)
+	(wire
+		(pts
+			(xy 78.74 12.7) (xy 76.2 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61248ef-4c92-4b8a-a8d1-cd040202c7d3")
+	)
+	(wire
+		(pts
+			(xy 64.77 2.54) (xy 64.77 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e968b7a4-a285-4611-870d-f6bfcd06e8ba")
+	)
+	(wire
+		(pts
+			(xy 168.91 17.78) (xy 157.48 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e1b455-4f38-4a91-866f-00ceccc29470")
+	)
+	(wire
+		(pts
+			(xy 121.92 5.08) (xy 128.27 5.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef783b86-4da8-4da4-8da9-6b04d0b2940b")
+	)
+	(wire
+		(pts
+			(xy 71.12 12.7) (xy 76.2 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10d0ec0-a801-471b-8a00-185149ccd9bb")
+	)
+	(wire
+		(pts
+			(xy 144.78 5.08) (xy 138.43 5.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4fe2c8-821b-43bb-89aa-1bdcd9a5989a")
 	)
 	(label "ADJ"
 		(at 93.98 2.54 0)
@@ -2461,7 +2413,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cf5be9dd-ec4a-423e-bd20-2ba0b6aa7e0f")
+		(uuid "580924ae-a2f8-4b94-80e2-31f03d374690")
+	)
+	(label "VCC9V+"
+		(at 0 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85b9c9b0-d226-4ffd-82a7-0a6a2f1794ee")
 	)
 	(label "GND"
 		(at 71.12 12.7 0)
@@ -2471,17 +2433,489 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df5e7602-07d6-4540-a504-0421a445a160")
+		(uuid "9cc929a1-bd48-456b-a7f8-4ed27c3a4150")
+	)
+	(label "VCC+"
+		(at 93.98 7.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea99d56-e37b-4e26-8d13-ff42154be9b7")
+	)
+	(label "VT"
+		(at 77.47 5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be4b7c8b-4681-461a-abfc-9329c5ce57e0")
+	)
+	(label "VCC-"
+		(at 168.91 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f085f1d1-3887-4be3-9c8d-773b62c14e42")
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:Drawing-Symbol_A4")
+		(lib_id "Signal-blo-easyedapro:3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410K±20%松下)")
+		(at 64.77 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48cbf7f6-5e20-4e49-bb3e-b5d2b732b7ba")
+		(property "Reference" "RP1"
+			(at 62.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410k±20%松下)"
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:RES-ADJ-SMD_3P-L3.0-W3.8-P1.75-BR"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "5k"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C9900002171"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410k±20%松下)"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2236168a-0e09-4fc9-a0d2-482b3fc3eeb4")
+		)
+		(pin "3"
+			(uuid "140a0c68-dfa6-4a49-84ed-136c4387f4c7")
+		)
+		(pin "1"
+			(uuid "ff9e9684-170f-447d-b2d7-a9615fb314c8")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
+					(reference "RP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:AR05ATB0500")
+		(at 92.71 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb26ed7-92ef-43bb-bfc7-d90e2a29bb6d")
+		(property "Reference" "R3"
+			(at 90.17 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "500Ω"
+			(at 90.17 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:R0805"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191129/C465721_10D49275DB41E427863CE9C8D788770A.pdf"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "阻值:50Ω;精度:±0.05%;温度系数:±10ppm/°C;"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RT0603BRC07500RL"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C860931"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "薄膜电阻 500Ω ±0.1% 100mW"
+			(at 92.71 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79f3f4e1-237d-4b78-99f8-a326b83fb630")
+		)
+		(pin "2"
+			(uuid "d62503bf-43d5-4876-9884-3d6f8359cefb")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:HGC0603R5106M160NTHJ")
+		(at 81.28 12.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd96c15-2a4f-496e-9aee-38d7e95829bf")
+		(property "Reference" "C3"
+			(at 78.74 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uF"
+			(at 78.74 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:C0603"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/FAC3FEC40A78BC5CCCE96C232A94D860.pdf"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:16V;材质(温度系数):X5R;"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HGC0603R5106M160NTHJ"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7472959"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "10uF ±20% 16V"
+			(at 81.28 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8a2b1e4-fd50-400d-900d-510797e4158e")
+		)
+		(pin "2"
+			(uuid "7a745ba4-f44c-4926-8095-74675c07bcdd")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:0Ω")
+		(at 133.35 5.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b6752d3-80b0-40e4-88d6-74b6ab13df8e")
+		(property "Reference" "CK3"
+			(at 130.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 130.81 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:R0603"
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0Ω"
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C9900083234"
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "0Ω"
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf0b420-bb42-46b6-b165-b84926cba31c")
+		)
+		(pin "2"
+			(uuid "b3949a93-104c-4217-b4da-4642651fa7de")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
+					(reference "CK3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:Drawing-Symbol_A4")
 		(at -21.59 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22ee4905-e0ba-4c60-8816-e78b74eb5043")
+		(uuid "9e71a382-9f30-44f5-9fc6-cae78d447f81")
 		(property "Reference" "?"
 			(at -21.59 196.85 0)
 			(effects
@@ -2498,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:"
+		(property "Footprint" "Signal-blo-easyedapro:"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2526,7 +2960,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Board Name" "Board1"
+		(property "@Board Name" "Minimal"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2536,7 +2970,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Create Date" "2025-02-24"
+		(property "@Create Date" "2025-02-25"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2546,7 +2980,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Create Time" "12:14:11"
+		(property "@Create Time" "18:33:16"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2583,7 +3017,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Project Name" "振荡器"
+		(property "@Project Name" "Signal-blocker-Minimal"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2592,7 +3026,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Schematic Name" "Schematic1"
+		(property "@Schematic Name" "Schematic1_1"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2601,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Update Date" "2025-02-24"
+		(property "@Update Date" "2025-02-25"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2611,7 +3045,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Update Time" "20:27:26"
+		(property "@Update Time" "18:33:23"
 			(at -21.59 196.85 0)
 			(effects
 				(font
@@ -2740,7 +3174,7 @@
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
 					(reference "?")
 					(unit 1)
 				)
@@ -2748,128 +3182,14 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:Y16294K50000B9W")
-		(at 46.99 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49eca32f-f0b2-4d9c-8c2b-32be022ac889")
-		(property "Reference" "R1"
-			(at 44.45 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "4.5kΩ"
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0805"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "电阻类型:-;阻值:4.5kΩ;精度:±0.1%;功率:100mW;温度系数:±0.2ppm/°C;"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "Y16294K50000B9W"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "VISHAY(威世)"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C4226006"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4.5kΩ ±0.1% 100mW"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc5b229e-6d46-43f9-b542-134503e704cd")
-		)
-		(pin "2"
-			(uuid "c3e8ff45-218f-4d3c-b235-7b1a287269cb")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:0Ω")
+		(lib_id "Signal-blo-easyedapro:0Ω")
 		(at 20.32 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "52b13762-cf6e-4a28-86f1-07e4814faec6")
+		(uuid "a56c96f6-84ab-4e93-8b77-24f2a84a7b20")
 		(property "Reference" "CK2"
 			(at 17.78 16.51 0)
 			(effects
@@ -2888,7 +3208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
+		(property "Footprint" "Signal-blo-easyedapro:R0603"
 			(at 20.32 17.78 0)
 			(effects
 				(font
@@ -2951,15 +3271,15 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ef881184-e4ea-4b0b-bf97-90e7f4fc91e3")
-		)
 		(pin "2"
-			(uuid "a28d5a5a-916a-4a22-8e10-d5c48e33385c")
+			(uuid "9c7840b6-c641-4044-b86d-54174ce31d43")
+		)
+		(pin "1"
+			(uuid "187f92be-e06a-4531-af70-70635ba691bf")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
 					(reference "CK2")
 					(unit 1)
 				)
@@ -2967,16 +3287,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:TAJA106K016RNJ")
-		(at 82.55 12.7 0)
+		(lib_id "Signal-blo-easyedapro:Y16294K50000B9W")
+		(at 46.99 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "68a802e5-f9a5-4765-b894-cdaa86bcb89b")
-		(property "Reference" "C3"
-			(at 81.28 10.16 0)
+		(uuid "aba37b0a-9bf2-4c0c-84ce-0fde3ddb7bee")
+		(property "Reference" "R1"
+			(at 44.45 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,8 +3304,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10uF"
-			(at 81.28 17.78 0)
+		(property "Value" "4.5kΩ"
+			(at 44.45 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,8 +3313,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:CAP-SMD_L3.2-W1.6-RD-C7171"
-			(at 82.55 12.7 0)
+		(property "Footprint" "Signal-blo-easyedapro:R0805"
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,8 +3322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160107/1457707750344.pdf"
-			(at 82.55 12.7 0)
+		(property "Datasheet" ""
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,8 +3331,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "容值:10uF;精度:±10%;额定电压:16V;等效串联电阻:3Ω@100kHz;"
-			(at 82.55 12.7 0)
+		(property "Description" "电阻类型:-;阻值:4.5kΩ;精度:±0.1%;功率:100mW;温度系数:±0.2ppm/°C;"
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,8 +3340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TAJA106K016RNJ"
-			(at 82.55 12.7 0)
+		(property "Manufacturer Part" "Y40214K50000T9W"
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,8 +3349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 82.55 12.7 0)
+		(property "Manufacturer" "VISHAY(威世)"
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,8 +3358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C7171"
-			(at 82.55 12.7 0)
+		(property "Supplier Part" "C3950045"
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3368,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 82.55 12.7 0)
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,267 +3376,39 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "10uF ±10% 16V"
-			(at 82.55 12.7 0)
+		(property "LCSC Part Name" "4.5kΩ ±0.01% 100mW"
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7ba76456-917c-47df-bc0e-0a445708de05")
 		)
 		(pin "2"
-			(uuid "88cacb94-087b-4af6-8d64-ba2b5f465800")
+			(uuid "0f678fda-f128-44f2-8947-a24ebb7e68f2")
+		)
+		(pin "1"
+			(uuid "17c89601-64c2-41b5-a6f0-31ddad893910")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
-					(reference "C3")
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:AR05ATB0500")
-		(at 92.71 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0683ab4-2504-4392-a40c-a50a804ccc97")
-		(property "Reference" "R3"
-			(at 90.17 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "50Ω"
-			(at 90.17 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0805"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191129/C465721_10D49275DB41E427863CE9C8D788770A.pdf"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "阻值:50Ω;精度:±0.05%;温度系数:±10ppm/°C;"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "AR05ATB0500"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Viking(光颉)"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C3015189"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "50Ω ±0.05%"
-			(at 92.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25c470e8-e23a-4db3-94e3-3447c892bd78")
-		)
-		(pin "2"
-			(uuid "f90cfc0f-272d-42f6-a5aa-d459aa14e561")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:RT0805BRD0753R6L")
-		(at 64.77 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a70bf84b-b3b7-4449-8d41-8b62b9daf996")
-		(property "Reference" "R2"
-			(at 62.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "53.6Ω"
-			(at 62.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0805"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200610/C326738_5639A9F1B6EB6E4AE2197577D3456E7F.pdf"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "电阻类型:薄膜电阻;阻值:53.6Ω;精度:±0.1%;功率:125mW;温度系数:±25ppm/°C;"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RT0805BRD0753R6L"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C865552"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "薄膜电阻 53.6Ω ±0.1% 125mW"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54a5c9fd-eb5a-43a6-aaf1-759fbf40f0b0")
-		)
-		(pin "2"
-			(uuid "21ebab34-60fd-487e-8726-0635d7c7d753")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:AMS1117A-ADJ")
+		(lib_id "Signal-blo-easyedapro:AMS1117A-ADJ")
 		(at 111.76 5.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9605a74-3453-4665-a21a-7fe97fcf1ef7")
+		(uuid "d3a04eb9-b7db-431b-829e-6c5035b82e57")
 		(property "Reference" "U4"
 			(at 104.14 0 0)
 			(effects
@@ -3335,7 +3427,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:SOT-223_L6.3-W3.5-P2.30-LS7.0-BR"
+		(property "Footprint" "Signal-blo-easyedapro:SOT-223_L6.3-W3.5-P2.30-LS7.0-BR"
 			(at 111.76 5.08 0)
 			(effects
 				(font
@@ -3407,21 +3499,21 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "27e1add7-ae88-4d4b-9aa4-e6abe6f90af7")
+		(pin "3"
+			(uuid "e54c3cbb-65f1-49fd-9d3b-13e2418dd11b")
 		)
 		(pin "1"
-			(uuid "0f12bdab-a57c-45d8-b121-31638c7043fa")
+			(uuid "4b621e49-7564-4ea6-8a5f-1b607added06")
+		)
+		(pin "4"
+			(uuid "119b38c5-9e96-489c-aef3-14ceea8decd6")
 		)
 		(pin "2"
-			(uuid "f4686186-0348-430d-93e1-2758a1a19544")
-		)
-		(pin "3"
-			(uuid "4bbbb741-3ae6-4801-a4cb-f355ac65f04e")
+			(uuid "02901ab9-c076-4f08-8a31-a8725eb0a854")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
 					(reference "U4")
 					(unit 1)
 				)
@@ -3429,16 +3521,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410K±20%松下)")
-		(at 64.77 15.24 0)
+		(lib_id "Signal-blo-easyedapro:RT0805BRD0753R6L")
+		(at 64.77 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d39ef039-4087-4ec8-aaab-134088d10574")
-		(property "Reference" "RP1"
-			(at 62.23 21.59 0)
+		(uuid "ec6afb7d-0857-4d62-8474-29a978b9a9ca")
+		(property "Reference" "R2"
+			(at 62.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,8 +3538,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410k±20%松下)"
-			(at 62.23 25.146 0)
+		(property "Value" "20kΩ"
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,8 +3547,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:RES-ADJ-SMD_3P-L3.0-W3.8-P1.75-BR"
-			(at 64.77 15.24 0)
+		(property "Footprint" "Signal-blo-easyedapro:R0805"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,8 +3556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 64.77 15.24 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,8 +3565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 15.24 0)
+		(property "Description" "电阻类型:薄膜电阻;阻值:53.6Ω;精度:±0.1%;功率:125mW;温度系数:±25ppm/°C;"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,8 +3574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410k±20%松下)"
-			(at 64.77 15.24 0)
+		(property "Manufacturer Part" "0603WAF2002T5E"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,8 +3583,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C9900002171"
-			(at 64.77 15.24 0)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 64.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C4184"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3602,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 64.77 15.24 0)
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,116 +3610,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "3X3贴片可调电阻10K可调(贴片可调电阻10K3X3EVM3GSX50B1410k±20%松下)"
-			(at 64.77 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbfddead-6f4f-4cb1-9424-d1f9841872f5")
-		)
-		(pin "2"
-			(uuid "9896dc84-0fc6-4943-861a-4f18bcb62df9")
-		)
-		(pin "3"
-			(uuid "9acd278c-7f24-4ae3-af0e-ab4dac7a40b3")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
-					(reference "RP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:0Ω")
-		(at 133.35 5.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb5ec62a-f87d-45e6-81b0-91a382d69685")
-		(property "Reference" "CK3"
-			(at 130.81 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 130.81 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
-			(at 133.35 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0Ω"
-			(at 133.35 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C9900083234"
-			(at 133.35 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 133.35 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "0Ω"
-			(at 133.35 5.08 0)
+		(property "LCSC Part Name" "20kΩ ±1% 100mW 厚膜电阻"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,15 +3620,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "595ac7a9-6e90-4092-991e-481c043fe301")
+			(uuid "695a379c-1650-4b3e-84d0-1b7ef9ec5bdb")
 		)
 		(pin "1"
-			(uuid "5765589f-c1a1-4ecf-b87f-8c44025733f4")
+			(uuid "2733ac12-8ef1-4323-b171-773e04ce080f")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6681c2ce-99a1-4122-b301-61b60f98577f"
-					(reference "CK3")
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/37dfdfed-9661-40d5-9cbc-acf18827cec0"
+					(reference "R2")
 					(unit 1)
 				)
 			)

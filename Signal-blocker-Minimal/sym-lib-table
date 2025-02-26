@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 0)
-  (lib (name "ProPrj_Sig-easyedapro")(type "KiCad")(uri "${KIPRJMOD}/ProPrj_Sig-easyedapro.kicad_sym")(options "")(descr ""))
+  (lib (name "Signal-blo-easyedapro")(type "KiCad")(uri "${KIPRJMOD}/Signal-blo-easyedapro.kicad_sym")(options "")(descr ""))
 )

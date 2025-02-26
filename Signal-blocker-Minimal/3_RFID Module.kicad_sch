@@ -2,10 +2,10 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "5725168a-6376-4508-b4bd-ef96eabe5160")
+	(uuid "5826ab1b-7bbf-432f-afa1-41e1d1c52977")
 	(paper "User" 143.713 191.364)
 	(lib_symbols
-		(symbol "ProPrj_Sig-easyedapro:0Ω"
+		(symbol "Signal-blo-easyedapro:0Ω"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
+			(property "Footprint" "Signal-blo-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -138,7 +138,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:Drawing-Symbol_A4"
+		(symbol "Signal-blo-easyedapro:Drawing-Symbol_A4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -158,7 +158,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:"
+			(property "Footprint" "Signal-blo-easyedapro:"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1157,7 +1157,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:wire"
+		(symbol "Signal-blo-easyedapro:wire"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1177,7 +1177,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:wire"
+			(property "Footprint" "Signal-blo-easyedapro:wire"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1281,17 +1281,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0deccf8c-b947-4762-a75d-f9653960475a")
-	)
-	(wire
-		(pts
-			(xy 12.7 11.43) (xy 12.7 2.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe4de02-0669-4328-81b7-d613872d663c")
+		(uuid "06c58026-f6f2-47c3-bdb8-00f8191bff34")
 	)
 	(wire
 		(pts
@@ -1301,7 +1291,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d246f35e-f4e4-44bc-ae0d-791d7e82f5b7")
+		(uuid "465f78b1-b9bf-43c4-a6b6-1e8839f2fff3")
+	)
+	(wire
+		(pts
+			(xy 12.7 11.43) (xy 12.7 2.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c68f20-b5f1-4aa9-9544-df87fa2d5108")
 	)
 	(wire
 		(pts
@@ -1311,27 +1311,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "df7e9e57-8db3-4d2f-a4ef-974bd527f031")
-	)
-	(label "GND"
-		(at 2.54 12.7 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6425f774-8c31-4c7f-8b37-be16f64cf7f1")
-	)
-	(label "RFOUT"
-		(at 7.62 36.83 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8bb4962-7f49-4be7-9e34-2a039835310b")
+		(uuid "7f12891d-e273-4e67-8abb-44b56a591761")
 	)
 	(label "GND"
 		(at 12.7 11.43 0)
@@ -1341,17 +1321,213 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ed5e5ee8-fd28-4da1-9e10-40debc119df3")
+		(uuid "10aa7e98-fc20-4aaa-a5d0-6f25e36da7c5")
+	)
+	(label "GND"
+		(at 2.54 12.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1989945e-915e-4e35-afb2-fe4bebe94f8c")
+	)
+	(label "RFOUT"
+		(at 7.62 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea6f69f-779c-43d4-947d-d6ca709168bb")
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:Drawing-Symbol_A4")
+		(lib_id "Signal-blo-easyedapro:0Ω")
+		(at 7.62 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "324058fe-3923-4cb5-a154-ffca9ba38b42")
+		(property "Reference" "CK6"
+			(at 10.16 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 10.16 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:R0603"
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0Ω"
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C9900083234"
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "0Ω"
+			(at 7.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6db37090-c910-420a-a507-f3061d3afcfe")
+		)
+		(pin "1"
+			(uuid "03b43214-87bc-4d2b-acd8-5c25bad9b25c")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/8e47c25a-4179-42f3-99ce-1078008a4bad"
+					(reference "CK6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:wire")
+		(at 7.62 7.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4acf680e-df0b-4c1c-aa53-483f703d12c8")
+		(property "Reference" "ANTENNA"
+			(at 16.51 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 7.62 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:wire"
+			(at 7.62 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 7.62 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 7.62 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fe75141a-e2fe-4f4f-a7fc-c293074e694f")
+		)
+		(pin "2"
+			(uuid "8a8c2cb9-54da-4623-8ecb-7ef647fb042d")
+		)
+		(pin "1"
+			(uuid "772ecd58-53c1-4697-9dcb-1f0c4b94151b")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/8e47c25a-4179-42f3-99ce-1078008a4bad"
+					(reference "ANTENNA")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:Drawing-Symbol_A4")
 		(at -16.51 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "287410c6-5b68-4342-9b15-8674ced0b87e")
+		(uuid "5b38a0ad-9c31-470d-90f6-2b292aa682a2")
 		(property "Reference" "?"
 			(at -16.51 199.39 0)
 			(effects
@@ -1368,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:"
+		(property "Footprint" "Signal-blo-easyedapro:"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1396,7 +1572,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Board Name" "Board1"
+		(property "@Board Name" "Minimal"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1406,7 +1582,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Create Date" "2025-02-24"
+		(property "@Create Date" "2025-02-25"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1416,7 +1592,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Create Time" "12:02:07"
+		(property "@Create Time" "18:33:17"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1444,7 +1620,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Page No" "4"
+		(property "@Page No" "5"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1453,7 +1629,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Project Name" "振荡器"
+		(property "@Project Name" "Signal-blocker-Minimal"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1462,7 +1638,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Schematic Name" "Schematic1"
+		(property "@Schematic Name" "Schematic1_1"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1471,7 +1647,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Update Date" "2025-02-24"
+		(property "@Update Date" "2025-02-25"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1481,7 +1657,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Update Time" "17:19:18"
+		(property "@Update Time" "18:33:23"
 			(at -16.51 199.39 0)
 			(effects
 				(font
@@ -1610,184 +1786,8 @@
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6c61af05-f78e-46fe-af8d-eff11574f2a0"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/8e47c25a-4179-42f3-99ce-1078008a4bad"
 					(reference "?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:wire")
-		(at 7.62 7.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f635abf-9277-4d9a-a606-fda9413e32b3")
-		(property "Reference" "ANTENNA"
-			(at 16.51 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 7.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:wire"
-			(at 7.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 7.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 7.62 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dca8527-e5df-4622-9faf-3d5f8816368a")
-		)
-		(pin "2"
-			(uuid "9edbbf0c-5f6e-455b-b5cc-2a4eb8388468")
-		)
-		(pin "3"
-			(uuid "f50bab54-7e40-4a3b-a09b-76f6c76c8dd2")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6c61af05-f78e-46fe-af8d-eff11574f2a0"
-					(reference "ANTENNA")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:0Ω")
-		(at 7.62 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d005d5e0-1c16-4626-8020-a755e3747fd0")
-		(property "Reference" "CK6"
-			(at 10.16 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 10.16 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0Ω"
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C9900083234"
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "0Ω"
-			(at 7.62 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9da3a001-2f66-4b9a-bcd1-5d5a8ad16cb1")
-		)
-		(pin "1"
-			(uuid "05e136f1-0675-4ede-9d9d-a3b1da622365")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/6c61af05-f78e-46fe-af8d-eff11574f2a0"
-					(reference "CK6")
 					(unit 1)
 				)
 			)

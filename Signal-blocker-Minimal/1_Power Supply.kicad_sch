@@ -2,10 +2,10 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "a6da3570-6b14-4584-8bbe-cc0e207e685a")
+	(uuid "a031186c-9b13-4918-86db-578ed223a230")
 	(paper "User" 224.206 194.742)
 	(lib_symbols
-		(symbol "ProPrj_Sig-easyedapro:0Ω"
+		(symbol "Signal-blo-easyedapro:0Ω"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
+			(property "Footprint" "Signal-blo-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -138,7 +138,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:A0509S-1WR3_C5369385"
+		(symbol "Signal-blo-easyedapro:A0509S-1WR3_C5369385"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -158,7 +158,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:PWRM-TH_A05XXS-1WR3"
+			(property "Footprint" "Signal-blo-easyedapro:PWRM-TH_A05XXS-1WR3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -345,7 +345,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:Drawing-Symbol_A4"
+		(symbol "Signal-blo-easyedapro:Drawing-Symbol_A4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -365,7 +365,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:"
+			(property "Footprint" "Signal-blo-easyedapro:"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1364,7 +1364,187 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:MM1W5V1"
+		(symbol "Signal-blo-easyedapro:HGC0603R5106M160NTHJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Signal-blo-easyedapro:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/FAC3FEC40A78BC5CCCE96C232A94D860.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "容值:10uF;精度:±20%;额定电压:16V;材质(温度系数):X5R;"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "HGC0603R5106M160NTHJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Chinocera(华瓷)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C7472959"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "10uF ±20% 16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HGC0603R5106M160NTHJ_1_0"
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Signal-blo-easyedapro:MM1W5V1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1384,7 +1564,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:SOD-123_L2.7-W1.6-LS3.7-RD"
+			(property "Footprint" "Signal-blo-easyedapro:SOD-123_L2.7-W1.6-LS3.7-RD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1519,211 +1699,7 @@
 				)
 			)
 		)
-		(symbol "ProPrj_Sig-easyedapro:TAJA106K016RNJ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:CAP-SMD_L3.2-W1.6-RD-C7171"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160107/1457707750344.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "容值:10uF;精度:±10%;额定电压:16V;等效串联电阻:3Ω@100kHz;"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "TAJA106K016RNJ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Kyocera AVX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C7171"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "10uF ±10% 16V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TAJA106K016RNJ_1_0"
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -2.032) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 1.778) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ProPrj_Sig-easyedapro:TYPE-C 16PIN 3MD EN IEC 073"
+		(symbol "Signal-blo-easyedapro:TYPE-C 16PIN 3MD EN IEC 073"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1743,7 +1719,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:TYPE-C-SMD_HDGC_TYPE-C-ZL-104PWB"
+			(property "Footprint" "Signal-blo-easyedapro:TYPE-C-SMD_HDGC_TYPE-C-ZL-104PWB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2119,314 +2095,74 @@
 		)
 	)
 	(junction
+		(at 59.69 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a04af5-2c2f-4269-85e8-208735187fdc")
+	)
+	(junction
 		(at 45.72 2.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13022e51-13bd-4080-a127-5a30dcb63d86")
+		(uuid "73d9b3f4-d07d-4bea-9aed-dad36d41b235")
 	)
 	(junction
 		(at 30.48 8.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68337c3a-d467-48df-998b-e5722db87c8a")
+		(uuid "d8e37d6c-165a-4746-8a60-0dad3a3f57b3")
 	)
 	(junction
-		(at 58.42 52.07)
+		(at 59.69 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7073c9d1-c9cb-4f8a-aefe-a65f27dce422")
-	)
-	(junction
-		(at 58.42 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee5cf6dc-ee13-4d0f-ac5c-627bea4967af")
-	)
-	(no_connect
-		(at 0 17.78)
-		(uuid "07d5b6fc-2624-48c2-ba85-8e8a2dd58187")
-	)
-	(no_connect
-		(at 0 27.94)
-		(uuid "1c7fb4bb-c31c-4544-97d5-3ca785be1bb7")
-	)
-	(no_connect
-		(at 0 38.1)
-		(uuid "2eebc8b3-09d9-44a2-9a27-3a0ddfd1a80b")
-	)
-	(no_connect
-		(at 0 7.62)
-		(uuid "435ff893-ea98-48a0-aed7-4592fc108f16")
-	)
-	(no_connect
-		(at 0 30.48)
-		(uuid "518ec4da-b08f-4ef0-9457-b66d6a82e54d")
+		(uuid "df429c1d-c3db-43cb-8654-4403f2972b24")
 	)
 	(no_connect
 		(at 46.99 57.15)
-		(uuid "5c16d962-b43d-4bd7-9d16-4c4b2c24808d")
+		(uuid "131b6ade-2ff8-4e3a-a095-b9e48af1e8a1")
 	)
 	(no_connect
-		(at 0 10.16)
-		(uuid "8e8fad96-f61d-4191-9883-7a629cc7c30b")
-	)
-	(no_connect
-		(at 0 20.32)
-		(uuid "c7564607-9591-490b-bcac-24797b37a693")
+		(at 0 38.1)
+		(uuid "2cc29dcd-71b3-4d23-a750-b900ecf22fc2")
 	)
 	(no_connect
 		(at 0 40.64)
-		(uuid "f25cfb4f-2ee5-4c7d-b5cd-ab080a3032a5")
+		(uuid "388ef9bd-7d63-40fd-85c0-c3de7f21cc2c")
+	)
+	(no_connect
+		(at 0 20.32)
+		(uuid "47ef72d5-7d1c-4f60-bef9-99da1cc394a3")
+	)
+	(no_connect
+		(at 0 27.94)
+		(uuid "5f45d48d-56cb-4b9f-944e-0de4b720f51e")
+	)
+	(no_connect
+		(at 0 7.62)
+		(uuid "7aa09e53-9441-494f-b16a-19f1bcaf48d2")
+	)
+	(no_connect
+		(at 0 10.16)
+		(uuid "88ffd793-2156-4816-8a52-fa691d1d46f7")
+	)
+	(no_connect
+		(at 0 30.48)
+		(uuid "c7272389-3718-4af2-878b-8856ecd78974")
+	)
+	(no_connect
+		(at 0 17.78)
+		(uuid "ea0849ba-7534-4a29-816d-c58a7999cd21")
 	)
 	(wire
 		(pts
-			(xy 80.01 62.23) (xy 58.42 62.23)
+			(xy 59.69 52.07) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01523ab2-7dad-4fba-a86d-6e2b7b2808b3")
-	)
-	(wire
-		(pts
-			(xy 54.61 64.77) (xy 46.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0caab6b8-b302-4b8b-a1dc-09c0027722da")
-	)
-	(wire
-		(pts
-			(xy 111.76 38.1) (xy 121.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2c3ddc-c28b-48c0-9ef4-b84a622b5ac0")
-	)
-	(wire
-		(pts
-			(xy 54.61 67.31) (xy 46.99 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b3e1548-62e1-4e37-b6de-83b8ce259ebb")
-	)
-	(wire
-		(pts
-			(xy 45.72 13.97) (xy 49.53 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b992cbb-42e0-4b74-988b-e67acece1b39")
-	)
-	(wire
-		(pts
-			(xy 101.6 38.1) (xy 95.25 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d09c0b9-cfd7-43d9-a098-182da5d7fe89")
-	)
-	(wire
-		(pts
-			(xy 45.72 2.54) (xy 45.72 5.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24f87acb-c822-4b8b-82c0-75f69261ec21")
-	)
-	(wire
-		(pts
-			(xy 30.48 11.43) (xy 22.86 11.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c6ecaa5-0c55-4b6c-b395-566fdf02c7f4")
-	)
-	(wire
-		(pts
-			(xy 30.48 21.59) (xy 22.86 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca2743b-e409-40ac-948f-71efbea36039")
-	)
-	(wire
-		(pts
-			(xy 45.72 13.97) (xy 45.72 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51791f16-b95a-4ddd-b18e-b4498651e846")
-	)
-	(wire
-		(pts
-			(xy 30.48 36.83) (xy 22.86 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f69bb2f-b7f9-4407-a9a5-cec940b4ebf2")
-	)
-	(wire
-		(pts
-			(xy 30.48 8.89) (xy 22.86 8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f9be53-365f-4b34-ade4-1e6525368b71")
-	)
-	(wire
-		(pts
-			(xy 30.48 11.43) (xy 30.48 8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715a5933-3302-4d59-b0c6-b309fdfdcd27")
-	)
-	(wire
-		(pts
-			(xy 45.72 2.54) (xy 30.48 2.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7932c8bb-271f-44b5-bca8-f2b1335f4cca")
-	)
-	(wire
-		(pts
-			(xy 30.48 24.13) (xy 22.86 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cfc424d-39c6-4130-ae0f-b63e7025e0b5")
-	)
-	(wire
-		(pts
-			(xy 53.34 52.07) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea2d2b4-4a81-4bb3-848a-d7f64dcb8b02")
-	)
-	(wire
-		(pts
-			(xy 30.48 39.37) (xy 22.86 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "956ef03e-edec-4550-8a74-3fdd66f58849")
-	)
-	(wire
-		(pts
-			(xy 58.42 54.61) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9690bc39-7755-4040-9780-6b758aa91db6")
-	)
-	(wire
-		(pts
-			(xy 58.42 62.23) (xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e8a078-b9cf-47e7-837f-977e5d8644eb")
-	)
-	(wire
-		(pts
-			(xy 45.72 2.54) (xy 49.53 2.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f09950a-99a9-4ee3-b325-f42ec0dc5747")
-	)
-	(wire
-		(pts
-			(xy 72.39 52.07) (xy 87.63 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9dff0d4-fdeb-4c9b-a5ec-244950bde2ea")
-	)
-	(wire
-		(pts
-			(xy 58.42 52.07) (xy 62.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f9cf1e-ef01-401d-8a95-847eafb8c46d")
-	)
-	(wire
-		(pts
-			(xy 46.99 54.61) (xy 53.34 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc8aebbc-a5ac-4fdb-8f7f-8c5f3bd850a2")
-	)
-	(wire
-		(pts
-			(xy 53.34 59.69) (xy 46.99 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb76678-3aef-4239-b8c9-b796c78f3a6a")
-	)
-	(polyline
-		(pts
-			(xy 220.98 87.63) (xy 223.52 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfbb99dc-d9fe-4c7e-ac74-1cac50ee3367")
+		(uuid "06f2f4f8-06b1-4f42-a767-37d595c3b51a")
 	)
 	(wire
 		(pts
@@ -2436,7 +2172,147 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d8f8b73a-e75e-4b8a-af68-fc2015261598")
+		(uuid "12cfc485-5604-4a0d-b42c-7c87e69af042")
+	)
+	(wire
+		(pts
+			(xy 54.61 64.77) (xy 46.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18623ac7-3a97-49f8-868e-2005f96a2b83")
+	)
+	(wire
+		(pts
+			(xy 53.34 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb31010-5dd8-4541-929a-ee3951bfcc44")
+	)
+	(wire
+		(pts
+			(xy 54.61 67.31) (xy 46.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38028d56-73da-495b-8823-9e97436a2ece")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696ec17e-8a7d-4890-bf67-805020aedc7a")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aec937a-49bb-4808-af0f-0bdac7a7b915")
+	)
+	(wire
+		(pts
+			(xy 49.53 16.51) (xy 45.72 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739aad24-3e9c-4893-b201-cebdde5bb0d5")
+	)
+	(polyline
+		(pts
+			(xy 220.98 87.63) (xy 223.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e8b352-19ea-45f1-ac6a-ef299efdc617")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3041fe-7244-4fe7-8282-62f92396ebc2")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 22.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aac7fdf-1857-4888-9001-cbc2476d88a8")
+	)
+	(wire
+		(pts
+			(xy 46.99 54.61) (xy 53.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dc34f0-97d1-435b-b6a2-735672dfed9f")
+	)
+	(wire
+		(pts
+			(xy 111.76 38.1) (xy 121.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3ca982-62d5-436b-a755-ab8f8c0ebd23")
+	)
+	(wire
+		(pts
+			(xy 45.72 2.54) (xy 45.72 5.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfb5a11-0627-4ac9-842a-9e18c203f57a")
+	)
+	(wire
+		(pts
+			(xy 45.72 2.54) (xy 30.48 2.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7d517a-1314-4b6e-9c13-538b030affe9")
+	)
+	(wire
+		(pts
+			(xy 30.48 11.43) (xy 30.48 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38d258d-9ba5-4960-a56d-bf8d46d90647")
 	)
 	(wire
 		(pts
@@ -2446,7 +2322,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "da056982-c565-405e-9b2e-c38756bf8d55")
+		(uuid "bcadf8cf-5afd-4e6a-a2a9-51aeeb41747a")
+	)
+	(wire
+		(pts
+			(xy 30.48 8.89) (xy 22.86 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd63db56-9235-402c-b194-a1b9c991d5f3")
+	)
+	(wire
+		(pts
+			(xy 30.48 11.43) (xy 22.86 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf51cff5-50fd-4742-bb16-9916b4c0fd0b")
 	)
 	(wire
 		(pts
@@ -2456,17 +2352,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f5ccb9ee-17a8-4d5c-a9e1-49b9e7a7b6cc")
-	)
-	(wire
-		(pts
-			(xy 53.34 62.23) (xy 53.34 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f74d3dcf-a337-4501-ba16-1edba2e8c199")
+		(uuid "bf8df5b2-e5aa-48dc-87a4-dc995af635e9")
 	)
 	(wire
 		(pts
@@ -2476,137 +2362,107 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f9610596-a34a-4ce1-89cc-a906a9446574")
+		(uuid "c4ea20a7-f468-4681-b61f-b3bf30779947")
 	)
-	(label "GND"
-		(at 25.4 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 45.72 15.24) (xy 45.72 16.51)
 		)
-		(uuid "221004bb-3922-4e5c-93d4-49e0f7b20d19")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c664e965-46ee-450b-b832-f289dfffef6e")
 	)
-	(label "GND"
-		(at 54.61 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right top)
+	(wire
+		(pts
+			(xy 45.72 2.54) (xy 49.53 2.54)
 		)
-		(uuid "36da8ba0-9ea8-4cf6-8185-221a0d202b79")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f51809-3547-4b78-bb5d-b82e811dfe24")
 	)
-	(label "GND"
-		(at 25.4 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 30.48 36.83) (xy 22.86 36.83)
 		)
-		(uuid "395dc9a1-f540-460a-b6a0-5130afb0d892")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88d2ea1-a658-4032-b643-b671f7373b0e")
 	)
-	(label "GND"
-		(at 25.4 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 53.34 59.69) (xy 46.99 59.69)
 		)
-		(uuid "3fe12328-b444-4e3e-9012-1de9a050ca94")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0c0046-eb5b-41d2-a991-a55d8958aa7b")
 	)
-	(label "VCC9V+"
-		(at 95.25 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 30.48 21.59) (xy 22.86 21.59)
 		)
-		(uuid "4090897a-b750-428c-bca2-b54d078aaa24")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0066f1-8182-4b32-9d11-0011c8d11235")
 	)
-	(label "POWER"
-		(at 54.61 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right top)
+	(wire
+		(pts
+			(xy 30.48 24.13) (xy 22.86 24.13)
 		)
-		(uuid "54739149-c92d-4493-89d7-c5ebd82c4212")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14d43a3-faeb-44b7-8e8e-5f15329763fd")
 	)
-	(label "VCC9V+"
-		(at 77.47 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 53.34 62.23) (xy 53.34 59.69)
 		)
-		(uuid "5674ca06-6db0-4c2b-be08-f579a8f0fa5c")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36fa636-acb8-45cf-b80b-8af84ba595dc")
 	)
-	(label "POWER"
-		(at 49.53 2.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 101.6 38.1) (xy 95.25 38.1)
 		)
-		(uuid "5dd95532-0df1-4651-b300-a19a019dbc0a")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6553805-1cc3-4496-9113-0e1d296187f9")
 	)
-	(label "GND"
-		(at 49.53 13.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 53.34 62.23) (xy 59.69 62.23)
 		)
-		(uuid "7179a2ff-93e4-4743-b361-ce7612ba6151")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8be9db-9a05-4b20-801a-5760f4d66f1f")
 	)
-	(label "VCC+"
-		(at 121.92 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 80.01 62.23) (xy 59.69 62.23)
 		)
-		(uuid "8fea7a98-2406-415a-a7bc-328110a7a2e9")
-	)
-	(label "VCC-"
-		(at 80.01 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "b1f7a9bf-c210-4648-97fb-2df86918ddb7")
-	)
-	(label "GND"
-		(at 25.4 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca63be6e-36ea-42bc-841f-d1daaeaefde9")
-	)
-	(label "GND"
-		(at 25.4 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d96a1cf1-3d41-4c58-9ef4-371dc8fa6a74")
+		(uuid "fda7a9f1-b18b-420f-99ee-6702ccd1297d")
 	)
 	(label "GND"
 		(at 25.4 21.59 0)
@@ -2616,46 +2472,167 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dcfcbc5a-bb17-4b1c-9fb2-cf33591b2fd1")
+		(uuid "0ab23247-5ff0-44d8-9b90-63f51714a439")
+	)
+	(label "VCC-"
+		(at 80.01 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b759e53-82d7-4535-a8ef-6c4797544301")
+	)
+	(label "POWER"
+		(at 54.61 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "6ba303f8-c668-40e9-b4f3-91ee2e3c905b")
+	)
+	(label "VCC+"
+		(at 121.92 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "866e7576-079a-4e7e-8e6d-279d9bad86ec")
+	)
+	(label "GND"
+		(at 25.4 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9754ad79-d63b-45dc-bda1-4cde3472b818")
+	)
+	(label "GND"
+		(at 54.61 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "a51a4ac5-57dd-441e-9f67-a2146a205162")
+	)
+	(label "GND"
+		(at 25.4 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab61e4b0-20eb-43ec-89cb-36dda637f034")
+	)
+	(label "GND"
+		(at 25.4 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6925c0-3060-4860-b1fa-195fa428da24")
+	)
+	(label "POWER"
+		(at 49.53 2.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8b91794-ea6f-4b82-b9bf-b73057b58f38")
+	)
+	(label "VCC9V+"
+		(at 77.47 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dda304a3-c5ad-425f-a039-8cbccfc017fd")
+	)
+	(label "GND"
+		(at 25.4 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deaed9be-b4c8-4a2d-9a88-95fdb09aa70a")
+	)
+	(label "VCC9V+"
+		(at 95.25 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6d78d82-146c-4476-9ee4-0d0f783bc8e6")
+	)
+	(label "GND"
+		(at 25.4 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eea52b99-f0a5-4de2-8367-d0a8ce358377")
+	)
+	(label "GND"
+		(at 49.53 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f924cd61-d3a3-469e-ba37-f6d0ea18a3bf")
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:TYPE-C 16PIN 3MD EN IEC 073")
-		(at 11.43 24.13 0)
+		(lib_id "Signal-blo-easyedapro:HGC0603R5106M160NTHJ")
+		(at 45.72 10.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0ef36913-8302-4afa-aad0-ac8176489b77")
-		(property "Reference" "USB1"
-			(at 2.54 5.08 0)
+		(uuid "06b64e94-1ff2-43d9-aa79-4c93ebea2b90")
+		(property "Reference" "C1"
+			(at 49.53 10.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "TYPE-C 16PIN 3MD EN IEC 073"
-			(at 2.54 45.72 0)
+		(property "Value" "10uF"
+			(at 49.53 12.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:TYPE-C-SMD_HDGC_TYPE-C-ZL-104PWB"
-			(at 11.43 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250103/7C8E9EC35CBB36C3A211B1F25C96EB7A.pdf"
-			(at 11.43 24.13 0)
+		(property "Footprint" "Signal-blo-easyedapro:C0603"
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,8 +2640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TYPE C 16PIN母座 带弹 5A 符合最新欧盟lEC62680-1-3认证"
-			(at 11.43 24.13 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/FAC3FEC40A78BC5CCCE96C232A94D860.pdf"
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,8 +2649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TYPE-C 16PIN 3MD EN IEC 073"
-			(at 11.43 24.13 0)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:16V;材质(温度系数):X5R;"
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,8 +2658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 11.43 24.13 0)
+		(property "Manufacturer Part" "HGC0603R5106M160NTHJ"
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,8 +2667,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C42434192"
-			(at 11.43 24.13 0)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 45.72 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7472959"
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2686,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 11.43 24.13 0)
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,8 +2694,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "TYPE-C 母座"
-			(at 11.43 24.13 0)
+		(property "LCSC Part Name" "10uF ±20% 16V"
+			(at 45.72 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,101 +2703,50 @@
 				(hide yes)
 			)
 		)
-		(pin "A9B4"
-			(uuid "3d73511d-ab1a-4ef3-8445-f0c7465920d9")
+		(pin "1"
+			(uuid "62e90bec-ec0d-41df-ad46-6e999bc14cbd")
 		)
-		(pin "A6"
-			(uuid "08a0fb36-889b-4d41-9c44-0d34628a964f")
-		)
-		(pin "B8"
-			(uuid "1fcbcd51-d79c-4ee1-869a-4f3553a3290b")
-		)
-		(pin "13"
-			(uuid "6295b6f8-0d40-41b6-8be8-5ee935516f48")
-		)
-		(pin "A1B12"
-			(uuid "be5bdd6c-7ecf-45fe-9a9a-fe5ff65cd7ed")
-		)
-		(pin "A5"
-			(uuid "401674e8-8500-4f03-ad8b-086b7fee6afd")
-		)
-		(pin "15"
-			(uuid "92ffd11a-6560-444c-b2ec-9ae67f03a716")
-		)
-		(pin "A7"
-			(uuid "ab086695-7181-4dda-baa0-39fe3fb0b457")
-		)
-		(pin "B7"
-			(uuid "b729e4f8-b5ca-417e-9c04-2b814d667711")
-		)
-		(pin "14"
-			(uuid "9348725a-363d-459a-982e-53a0cbaad341")
-		)
-		(pin "A12B1"
-			(uuid "358aa23f-1c74-498b-8f2c-d71d308c5642")
-		)
-		(pin "A4B9"
-			(uuid "eee2d5df-459d-4b15-8c66-2fbe766cd0cd")
-		)
-		(pin "B5"
-			(uuid "aa95a0ee-8bee-440d-b6e2-cf7364af0fc8")
-		)
-		(pin "B6"
-			(uuid "30410849-34a5-42ec-9349-0de7badc9248")
-		)
-		(pin "12"
-			(uuid "36ad951c-f110-4bf0-968c-a450a7238648")
-		)
-		(pin "A8"
-			(uuid "aa3a0fa6-229f-4994-abb7-f5c186227a6b")
+		(pin "2"
+			(uuid "e0f2e06d-aa8a-4fe5-b769-6e59c433ad4d")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
-					(reference "USB1")
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:0Ω")
-		(at 67.31 52.07 0)
+		(lib_id "Signal-blo-easyedapro:MM1W5V1")
+		(at 106.68 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "27c6c739-f575-42af-92d1-86b98b4851fa")
-		(property "Reference" "CK1"
-			(at 64.77 50.8 0)
+		(uuid "1243b464-e422-4853-bb77-0bd035fb52a6")
+		(property "Reference" "D1"
+			(at 105.41 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "0Ω"
-			(at 64.77 55.88 0)
+		(property "Value" "MM1W5V1"
+			(at 105.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:R0603"
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 52.07 0)
+		(property "Footprint" "Signal-blo-easyedapro:SOD-123_L2.7-W1.6-LS3.7-RD"
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,8 +2754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 67.31 52.07 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190618/C382951_749579DA53C45F90F6E07B432E1D8FD6.pdf"
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,8 +2763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0Ω"
-			(at 67.31 52.07 0)
+		(property "Description" "二极管配置:独立式;稳压值(标称值):5.1V;稳压值(范围):4.84V~5.36V;功率(Pd):1W;"
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,8 +2772,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C9900083234"
-			(at 67.31 52.07 0)
+		(property "Manufacturer Part" "MM1W5V1"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "晶导微电子"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C382836"
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2800,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 67.31 52.07 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,8 +2808,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "0Ω"
-			(at 67.31 52.07 0)
+		(property "LCSC Part Name" "齐纳二极管 5.1V 1W"
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,29 +2818,29 @@
 			)
 		)
 		(pin "2"
-			(uuid "278625b0-551b-46ba-b540-aeaf43506209")
+			(uuid "81c47f5e-a94f-49c7-863f-59ddf91affb6")
 		)
 		(pin "1"
-			(uuid "29f3cfd5-64b0-45ce-819b-218de76685fc")
+			(uuid "1f92532b-b44d-4ed6-90e9-c05bdb3c79ac")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
-					(reference "CK1")
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:Drawing-Symbol_A4")
+		(lib_id "Signal-blo-easyedapro:Drawing-Symbol_A4")
 		(at -43.18 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5155bea3-6855-4fb8-a919-07ef0fbe0b2d")
+		(uuid "27f71d6d-22c5-49bc-a417-48ee66fb5c97")
 		(property "Reference" "?"
 			(at -43.18 203.2 0)
 			(effects
@@ -2904,7 +2857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:"
+		(property "Footprint" "Signal-blo-easyedapro:"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -2932,7 +2885,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Board Name" "Board1"
+		(property "@Board Name" "Minimal"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -2942,7 +2895,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Create Date" "2025-02-22"
+		(property "@Create Date" "2025-02-25"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -2952,7 +2905,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Create Time" "18:14:03"
+		(property "@Create Time" "18:33:16"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -2989,7 +2942,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Project Name" "振荡器"
+		(property "@Project Name" "Signal-blocker-Minimal"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -2998,7 +2951,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Schematic Name" "Schematic1"
+		(property "@Schematic Name" "Schematic1_1"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -3007,7 +2960,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Update Date" "2025-02-24"
+		(property "@Update Date" "2025-02-25"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -3017,7 +2970,7 @@
 				(hide yes)
 			)
 		)
-		(property "@Update Time" "20:06:54"
+		(property "@Update Time" "18:33:23"
 			(at -43.18 203.2 0)
 			(effects
 				(font
@@ -3146,7 +3099,7 @@
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
 					(reference "?")
 					(unit 1)
 				)
@@ -3154,43 +3107,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:TAJA106K016RNJ")
-		(at 45.72 8.89 90)
+		(lib_id "Signal-blo-easyedapro:TYPE-C 16PIN 3MD EN IEC 073")
+		(at 11.43 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "52498518-8fe9-4b29-b3f2-349e9928fcfd")
-		(property "Reference" "C1"
-			(at 49.53 8.89 90)
+		(uuid "674d6412-61d8-4437-9350-7ce857a58ff9")
+		(property "Reference" "USB1"
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10uF"
-			(at 49.53 11.43 90)
+		(property "Value" "TYPE-C 16PIN 3MD EN IEC 073"
+			(at 2.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:CAP-SMD_L3.2-W1.6-RD-C7171"
-			(at 45.72 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160107/1457707750344.pdf"
-			(at 45.72 8.89 0)
+		(property "Footprint" "Signal-blo-easyedapro:TYPE-C-SMD_HDGC_TYPE-C-ZL-104PWB"
+			(at 11.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,8 +3142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "容值:10uF;精度:±10%;额定电压:16V;等效串联电阻:3Ω@100kHz;"
-			(at 45.72 8.89 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250103/7C8E9EC35CBB36C3A211B1F25C96EB7A.pdf"
+			(at 11.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,8 +3151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TAJA106K016RNJ"
-			(at 45.72 8.89 0)
+		(property "Description" "TYPE C 16PIN母座 带弹 5A 符合最新欧盟lEC62680-1-3认证"
+			(at 11.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,8 +3160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 45.72 8.89 0)
+		(property "Manufacturer Part" "TYPE-C 16PIN 3MD EN IEC 073"
+			(at 11.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,8 +3169,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C7171"
-			(at 45.72 8.89 0)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 11.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C42434192"
+			(at 11.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3188,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 45.72 8.89 0)
+			(at 11.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,8 +3196,155 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "10uF ±10% 16V"
-			(at 45.72 8.89 0)
+		(property "LCSC Part Name" "TYPE-C 母座"
+			(at 11.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A9B4"
+			(uuid "0eef0a99-1291-4880-b381-d438b7f16937")
+		)
+		(pin "A4B9"
+			(uuid "e1dacc04-21c8-402e-ae29-d477ca769bc2")
+		)
+		(pin "A6"
+			(uuid "2a55eba0-e1cf-4a33-9217-282732a3c1b7")
+		)
+		(pin "B7"
+			(uuid "495f0aca-83cb-4672-a5fa-d62f90180759")
+		)
+		(pin "A5"
+			(uuid "82d26738-d25a-41da-a4cb-01d154ae3ee9")
+		)
+		(pin "12"
+			(uuid "bee02c31-cfc2-4e46-8a1b-db9ba81e8313")
+		)
+		(pin "14"
+			(uuid "7da9d530-617c-4672-b435-26a69ee10da1")
+		)
+		(pin "13"
+			(uuid "0145b75f-e434-4a61-81d8-3b29237ab4df")
+		)
+		(pin "A12B1"
+			(uuid "c36ad3c0-4951-405b-af5d-a63e468ff528")
+		)
+		(pin "A1B12"
+			(uuid "7c36dc1f-6c77-4d6e-b2ae-411fcf373e12")
+		)
+		(pin "B6"
+			(uuid "5b6eb156-0261-4fc0-90b6-250988f38227")
+		)
+		(pin "B5"
+			(uuid "74661159-8a3f-4526-9ca9-ff02c095c321")
+		)
+		(pin "B8"
+			(uuid "63edf4d8-130a-43d5-94e4-5c1f14814d8f")
+		)
+		(pin "A8"
+			(uuid "a529670d-06f3-4385-882c-21250ba78779")
+		)
+		(pin "15"
+			(uuid "ba21f64b-e617-4aa1-bf36-8594fa8a78f2")
+		)
+		(pin "A7"
+			(uuid "fa75f114-dca9-48ea-94f9-374c49d7fe55")
+		)
+		(instances
+			(project ""
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Signal-blo-easyedapro:0Ω")
+		(at 67.31 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74f04997-0106-4086-913b-3769108a945f")
+		(property "Reference" "CK1"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Signal-blo-easyedapro:R0603"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0Ω"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C9900083234"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "0Ω"
+			(at 67.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,29 +3353,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "9197e7ed-4ed1-4705-a2f4-d3db31568d26")
+			(uuid "8fff099c-a508-4c39-9b3e-314a99ff4839")
 		)
 		(pin "2"
-			(uuid "265fadfe-0bed-4fd4-894d-aa3069d181d4")
+			(uuid "a8fa0f3d-fda6-4dd0-8fb1-6bb6005f412d")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
-					(reference "C1")
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
+					(reference "CK1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:A0509S-1WR3_C5369385")
+		(lib_id "Signal-blo-easyedapro:A0509S-1WR3_C5369385")
 		(at 41.91 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0618e41-f136-4f57-8e32-07602af257de")
+		(uuid "83122695-2314-483c-9102-71dc0160bdd6")
 		(property "Reference" "U8"
 			(at 35.56 50.8 0)
 			(effects
@@ -3294,7 +3394,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:PWRM-TH_A05XXS-1WR3"
+		(property "Footprint" "Signal-blo-easyedapro:PWRM-TH_A05XXS-1WR3"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -3366,24 +3466,24 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "3109c5e9-8387-4b76-ac5e-c836271312b1")
+		(pin "2"
+			(uuid "5dc02440-727c-4e72-b500-30dca98214b6")
 		)
 		(pin "4"
-			(uuid "1a217721-c894-487f-9a69-b4d884cf4c46")
-		)
-		(pin "2"
-			(uuid "5c35c999-eada-4c64-8bec-c29ed5c369ff")
-		)
-		(pin "5"
-			(uuid "0cf3fa50-6e48-406f-b58b-a573ca5d7cbc")
+			(uuid "294bbd26-0b17-4e85-94ae-4db5fd1facd9")
 		)
 		(pin "1"
-			(uuid "c49d382a-670a-497f-a982-4535168d98e9")
+			(uuid "1fbc9f2d-ea0f-4fba-89e5-6db82cca3e82")
+		)
+		(pin "5"
+			(uuid "472b8e90-0677-4a9e-b68e-743358aa91bf")
+		)
+		(pin "6"
+			(uuid "1f6a7625-610e-4c88-ab42-342076cbf9ed")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
 					(reference "U8")
 					(unit 1)
 				)
@@ -3391,158 +3491,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:MM1W5V1")
-		(at 106.68 38.1 180)
+		(lib_id "Signal-blo-easyedapro:HGC0603R5106M160NTHJ")
+		(at 59.69 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f24f05e6-8095-4f66-bc0e-99fea2fbfee1")
-		(property "Reference" "D1"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "MM1W5V1"
-			(at 105.41 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:SOD-123_L2.7-W1.6-LS3.7-RD"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190618/C382951_749579DA53C45F90F6E07B432E1D8FD6.pdf"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "二极管配置:独立式;稳压值(标称值):5.1V;稳压值(范围):4.84V~5.36V;功率(Pd):1W;"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "MM1W5V1"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "晶导微电子"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C382836"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "齐纳二极管 5.1V 1W"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "117b90b1-6a32-48ca-8397-db170516ccbc")
-		)
-		(pin "2"
-			(uuid "f4e46e6a-35ba-4225-a5e7-60d36f6fc78c")
-		)
-		(instances
-			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:TAJA106K016RNJ")
-		(at 58.42 58.42 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6ba179f-68bb-4b0a-bf2f-c0ae64c87160")
+		(uuid "c79a096d-6fa3-4770-a9e9-f019bd26472d")
 		(property "Reference" "C2"
-			(at 62.23 58.42 90)
+			(at 63.5 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right top)
 			)
 		)
 		(property "Value" "10uF"
-			(at 62.23 60.96 90)
+			(at 63.5 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:CAP-SMD_L3.2-W1.6-RD-C7171"
-			(at 58.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160107/1457707750344.pdf"
-			(at 58.42 58.42 0)
+		(property "Footprint" "Signal-blo-easyedapro:C0603"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,8 +3526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "容值:10uF;精度:±10%;额定电压:16V;等效串联电阻:3Ω@100kHz;"
-			(at 58.42 58.42 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/FAC3FEC40A78BC5CCCE96C232A94D860.pdf"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,8 +3535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TAJA106K016RNJ"
-			(at 58.42 58.42 0)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:16V;材质(温度系数):X5R;"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,8 +3544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 58.42 58.42 0)
+		(property "Manufacturer Part" "HGC0603R5106M160NTHJ"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,8 +3553,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C7171"
-			(at 58.42 58.42 0)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7472959"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3572,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 58.42 58.42 0)
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,8 +3580,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "10uF ±10% 16V"
-			(at 58.42 58.42 0)
+		(property "LCSC Part Name" "10uF ±20% 16V"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,14 +3590,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee364560-55d0-4ff0-8cd1-53732bc6d08e")
+			(uuid "b65924de-b166-4f98-88e0-af835db952d0")
 		)
 		(pin "1"
-			(uuid "97489aa5-7a8a-42e7-b532-7672b3ee7060")
+			(uuid "06bc786f-154e-45fe-80a4-2c1262d319a9")
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/18bbb8ce-3ac7-4bab-acf8-9357df3b81ae"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/44142349-e257-41fc-ba08-8a7a56516c26"
 					(reference "C2")
 					(unit 1)
 				)

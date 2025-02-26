@@ -2,10 +2,10 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "1933a0b0-e2e0-4781-ac6a-06f13367e1a1")
+	(uuid "01d0db7a-2159-4f74-a225-28f18052bb99")
 	(paper "User" 37.2872 5.6896)
 	(lib_symbols
-		(symbol "ProPrj_Sig-easyedapro:Drawing-Symbol_A4"
+		(symbol "Signal-blo-easyedapro:Drawing-Symbol_A4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sig-easyedapro:"
+			(property "Footprint" "Signal-blo-easyedapro:"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1026,14 +1026,14 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sig-easyedapro:Drawing-Symbol_A4")
+		(lib_id "Signal-blo-easyedapro:Drawing-Symbol_A4")
 		(at -123.19 13.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "676b280c-8aa2-449e-a441-cba46a4174fa")
+		(uuid "fb8f8a47-1f5a-4bff-8cd6-7d3596778ee8")
 		(property "Reference" "?"
 			(at -123.19 13.97 0)
 			(effects
@@ -1050,7 +1050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sig-easyedapro:"
+		(property "Footprint" "Signal-blo-easyedapro:"
 			(at -123.19 13.97 0)
 			(effects
 				(font
@@ -1207,7 +1207,7 @@
 		)
 		(instances
 			(project ""
-				(path "/d08ab412-bf7b-4d07-89a0-c263cd3ef6f0/68cb6e3d-31a4-4184-8aaf-f8bf86d31cb1"
+				(path "/d6a1a547-a6a2-4474-8af8-e83e8b9a03d8/dcb2c93d-4278-4314-a8aa-3ac89a6c89c3"
 					(reference "?")
 					(unit 1)
 				)
